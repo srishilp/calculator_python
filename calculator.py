@@ -7,14 +7,15 @@ window.title("Calculator")
 entry = Entry()
 entry.grid(row=0, columnspan=10, sticky=W + E)
 
-button1 = Button( text="1")
-button1.grid(row=1, column=0)
+button7 = Button( text="7")
+button7.grid(row=1, column=0)
 
-button2 = Button( text="2")
-button2.grid(row=1, column=1)
+button8 = Button( text="8")
+button8.grid(row=1, column=1)
 
-button3 = Button( text="3")
-button3.grid(row=1, column=2)
+button9 = Button( text="9")
+button9.grid(row=1, column=2)
+
 
 def hello():
     print("button clicked")
